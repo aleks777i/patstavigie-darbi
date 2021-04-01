@@ -1,5 +1,6 @@
 from wsgiref.simple_server import make_server
 from urllib.parse import parse_qs
+from flask import Flask  #izmaiņas Aleksandrs
 
 
 def university(environ):
